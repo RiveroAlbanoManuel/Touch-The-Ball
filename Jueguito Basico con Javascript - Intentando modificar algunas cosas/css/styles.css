@@ -1,0 +1,164 @@
+* {
+  padding:0px;
+  margin:0px;
+  font-family: Raleway;
+  
+  
+
+}
+
+html{
+  
+}
+body{
+  height:100vh;
+/* Gradient CSS */
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1efb+5,78ff1e+12,1eb0ff+20,ff3236+31,04f200+38,dcf900+51,b72288+58,00d2e5+70,ff1a00+82,a6ed00+93 */
+background: rgb(255,30,251); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(255,30,251,1) 5%, rgba(120,255,30,1) 12%, rgba(30,176,255,1) 20%, rgba(255,50,54,1) 31%, rgba(4,242,0,1) 38%, rgba(220,249,0,1) 51%, rgba(183,34,136,1) 58%, rgba(0,210,229,1) 70%, rgba(255,26,0,1) 82%, rgba(166,237,0,1) 93%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(255,30,251,1) 5%,rgba(120,255,30,1) 12%,rgba(30,176,255,1) 20%,rgba(255,50,54,1) 31%,rgba(4,242,0,1) 38%,rgba(220,249,0,1) 51%,rgba(183,34,136,1) 58%,rgba(0,210,229,1) 70%,rgba(255,26,0,1) 82%,rgba(166,237,0,1) 93%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(255,30,251,1) 5%,rgba(120,255,30,1) 12%,rgba(30,176,255,1) 20%,rgba(255,50,54,1) 31%,rgba(4,242,0,1) 38%,rgba(220,249,0,1) 51%,rgba(183,34,136,1) 58%,rgba(0,210,229,1) 70%,rgba(255,26,0,1) 82%,rgba(166,237,0,1) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1efb', endColorstr='#a6ed00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+
+}
+
+.button{
+  display:inline-block;
+  margin:0 auto;
+  padding:10px 15px;
+  color:white;
+  font-size:25px;
+  font-weight:700;
+  background-color:lightseagreen;
+  cursor:pointer;
+  border-radius:5px;
+  transition:0.5s;
+
+}
+.button:hover{  
+  
+  color:black;
+  
+  
+}
+.button:hover{
+  background-color:lightskyblue;
+  transition:.1s;
+}
+.contenedor-dificultad{
+  flex-basis:50%;
+}
+.resetear{
+  flex-basis:50%;
+}
+.dificultad{
+  font-size:25px;
+  font-weight:400;
+  background-color:lightblue;
+  
+}
+
+.contenedor{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+
+  padding:0px;
+  margin: auto;
+  width:500px;
+  height:500px;
+  background-color:#fe9;
+  border:8px dashed green;
+  position:relative;
+  z-index:1;
+
+}
+
+#player{
+  background-color:#900;
+ /* margin-top:235px;
+  margin-left: 235px; */
+  border:3px dashed #bb2222;
+  border-radius:45px;
+  width:50px;
+  height:50px;
+  position:absolute;
+  transition:0.15s;
+  cursor:pointer;
+  position:absolute;
+
+}
+
+
+
+/*   ESTE CODIGO SERA CON EL DIV, SIN EL ICONO.
+#player{
+  background-color:black;
+  border:4px dashed #b22;
+  width:50px;
+  height:50px;
+  border-radius:30px;
+}
+*/
+.pointer{
+  background-color:#333;
+  height:50px;
+  margin-top:20px;
+  font-size:20px;
+  border-bottom:0px;
+  color:#fff;
+  text-align:center;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+}
+
+
+#puntos{
+  flex-basis:calc(33% - 10px);
+  margin-left:15px;
+}
+#reset{
+  background-color:lightblue;
+  color: #333333;
+  font-size:15px;
+  padding:10px 32px;
+  display:inline-block;
+  cursor:pointer;
+  border-radius:10px;
+  font-weight:700;
+  
+}
+#start{ /* Contenedor del boton 'Comenzar' */
+    color:black;
+    margin-top:20px;
+    height:558px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    z-index:0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0, 0, 0, .90);
+    
+ }
+#startgame{ /* Boton 'Comenzar' dentro de Start*/
+  z-index:0;
+  margin-bottom:370px;
+  
+  
+}
+.cont-reset{
+  flex-basis:calc(33% - 10px);
+  cursor:pointer;
+}

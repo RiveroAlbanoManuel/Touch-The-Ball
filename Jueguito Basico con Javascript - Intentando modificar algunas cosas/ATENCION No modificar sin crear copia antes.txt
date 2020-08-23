@@ -1,0 +1,9 @@
+V2.1: Le cree el boton start con el z index, que empieza la cuenta regresiva.
+Por defecto trae Z-Index en cero, pero la funcion mainGame() dentro del main() nos cambia su z-index a 3 para que aparezca al frente. Al apretar start, comienza la cuenta regresiva, 
+Unifique la funcion resetearpuntos en el caso de ganar, perder, o apretar boton reset. En las tres opciones nos hara aparecer el contador en cero, el time en cero, y el boton start. El tiempo no correra atras hasta que apretemos el boton start.
+
+Le agregue un background gradient colorido para que se parezca a un juego.
+
+Falta: Mobile Version
+
+TODO ESTO SIN NINGUN VIDEO SOLO BUSCANDO EN STACK OVERFLOW Y FOROS la sintaxys para las soluciones que se me ocurrian.
